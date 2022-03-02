@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<META CHARSET="Utf-8">
+</head>
+<body>
+<textarea cols="85" rows="40">
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+system("chcp 1250");
+int gora_now;
+cout<<"podaj górną granicę obliczania sumy=";
+cin>>gora_now;
+int dol_now;
+cout<<"podaj dolną granicę obliczania sumy=";
+cin>>dol_now;
+int suma_now=0;
+for(int dzialanie=gora_now;dzialanie<=dol_now;dzialanie++)
+{
+
+suma_now+=dzialanie;
+}
+cout<<"suma="<<suma_now<<endl;
+system("PAUSE");
+return EXIT_SUCCESS;
+}
+
+</textarea>
+</body>
+</html>
